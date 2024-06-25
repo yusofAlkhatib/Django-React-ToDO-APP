@@ -1,14 +1,6 @@
 import { useState } from "react";
 
-const ToDos = () =>{
-
-const [todos, setTodos] = useState([
-    { title: "Todo 1", status: "INPROGRESS" },
-    { title: "Todo 2", status: "DONE" },
-    { title: "Todo 3", status: "INPROGRESS" }
-]);
-
-
+const ToDos = ({todos,setTodos}) =>{
 
 
     return (
